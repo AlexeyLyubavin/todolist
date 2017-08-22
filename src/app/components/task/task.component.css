@@ -1,0 +1,60 @@
+
+/*==========================rg-tasks==========================*/
+.rg-tasks {    
+    background: #fff;
+    line-height: 50px;      
+    border-bottom: 1px solid #E7EBEA;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;   
+}
+.rg-tasks.done {
+    background-color: lightcyan;
+}
+.rg-tasks:hover {
+    background: #FCFED5;
+}
+
+.rg-tasks .rg-check {
+    width: 50px;
+    text-align: center;
+    margin-right: 5px;    
+    border-right: 1px solid #EFDADF;    
+}
+.rg-tasks .rg-name {    
+    width: 530px;
+    padding-left: 15px;
+    color: #999999;
+    border-left: 1px solid #EFDADF;
+    border-right: 1px solid #E7EBEA; 
+    cursor: pointer;
+    overflow: hidden;
+    height: 50px;
+}
+
+.rg-tasks .rg-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+}
+
+.rg-tasks .rg-right i {
+    color: #B2B2A8;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rg-tasks .rg-right hr.vertical-line {    
+    /*width: 1px;*/
+    color: #B2B2A8;
+    height: 10px;
+    margin: 0px 10px;
+    padding: 0px;
+    cursor: auto;
+}
+/*==========================rg-tasks==========================*/

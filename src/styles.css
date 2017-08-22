@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+    background-image: url('assets/background.jpg');
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;    
+
+    font-family: 'Arial', serif;
+    font-style: normal;
+    font-variant: normal;    
+    line-height: normal;
+}
+
+.ng-busy,
+.ng-busy > *,
+.ng-busy > ng-component > * {
+  position: fixed;
+}
+
+.ng-busy-backdrop {
+    position: fixed;
+}
+
+/*==========================rg-footer==========================*/
+.rg-footer {
+    width: 210px;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rg-footer .add-list button {
+    width: 210px;
+    height: 50px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-image: -webkit-linear-gradient(#5183BE, #375D9E);
+    background-image: -moz-linear-gradient(#5183BE, #375D9E);
+    background-image: -o-linear-gradient(#5183BE, #375D9E);
+    background-image: linear-gradient(#5183BE, #375D9E);
+
+    border: 1px groove #375D9E;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.rg-footer .add-list button .fa-plus {
+    color: #354B6F;
+    font-size: 25px;
+    /*width: 25px;
+    height: 25px;*/
+}
+
+.rg-footer .add-list .add {
+    margin-left: 15px;
+}
+
+.rg-footer .copy {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+/*==========================rg-footer==========================*/
