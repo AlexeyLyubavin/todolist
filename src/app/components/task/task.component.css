@@ -11,7 +11,7 @@
     justify-content: flex-start;   
 }
 .rg-tasks.done {
-    background-color: lightcyan;
+    background-color: rgb(4, 242, 73);
 }
 .rg-tasks:hover {
     background: #FCFED5;
